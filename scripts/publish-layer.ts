@@ -60,7 +60,7 @@ export class PublishCommand extends BuildCommand {
           "--compatible-architectures",
           arch === "x64" ? "x86_64" : "arm64",
           "--compatible-runtimes",
-          "provided.al2",
+          "provided.al2023",
           "provided",
           "--zip-file",
           `fileb://${output}`,

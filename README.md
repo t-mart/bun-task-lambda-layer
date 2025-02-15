@@ -43,7 +43,7 @@ bun run publish-layer --arch x64
 ## Adding to a Lambda Function
 
 To use this layer, first locate/create a Lambda function that uses the "Amazon
-Linux 2" runtime and uses the architecture for which this layer was
+Linux 2023" runtime and uses the architecture for which this layer was
 built/published (either `arm64` or `x64`).
 
 Then, in the Lambda UI, add a layer to the function. It is called `bun-task` by
